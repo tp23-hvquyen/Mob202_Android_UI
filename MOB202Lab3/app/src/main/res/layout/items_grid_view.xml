@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/img_lab3lesson3"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/tv_name_app_lab3lesson3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="TextView" />
+</LinearLayout>
